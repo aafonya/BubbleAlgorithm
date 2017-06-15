@@ -10,6 +10,10 @@ namespace BubbleAlgorithm
     {
         static void Main(string[] args)
         {
+            Bubble.fulfillList();
+            Bubble.printList(Bubble.numbers);
+            Bubble.BubbleAlgorithm(Bubble.numbers);
+            Bubble.printList(Bubble.numbers);
         }
     }
 }
